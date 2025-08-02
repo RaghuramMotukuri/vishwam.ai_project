@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Indian Festivals AI Bot | भारतीय त्योहार AI सहायक 🕉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Indian Festivals AI Bot | भारतीय त्योहार AI सहायक 🕉🪷</h1>
+  <div id="controls">
+    <label for="language">Interface Language:</label>
+    <select id="language">
+      <option value="en-US">English</option>
+      <option value="hi-IN">हिंदी</option>
+      <!-- Other options as before -->
+    </select>
+    <label for="audioLanguage">Audio Output Language:</label>
+    <select id="audioLanguage">
+      <option value="en-US">English</option>
+      <option value="hi-IN">हिंदी</option>
+      <option value="bn-IN">বাংলা</option>
+      <option value="ta-IN">தமிழ்</option>
+      <option value="te-IN">తెలుగు</option>
+      <option value="mr-IN">मराठी</option>
+      <option value="kn-IN">ಕನ್ನಡ</option>
+      <option value="ml-IN">മലയാളം</option>
+      <option value="gu-IN">ગુજરાતી</option>
+      <option value="pa-IN">ਪੰਜਾਬੀ</option>
+    </select>
+    <button id="micButton">🎤 Start Voice</button>
+  </div>
+  <div id="audioControls">
+    <button id="playButton">▶ Play</button>
+    <button id="pauseButton">⏸ Pause</button>
+    <button id="stopButton">⏹ Stop</button>
+    <label for="volume">Volume:</label>
+    <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+    <label for="rate">Speech Rate:</label>
+    <input type="range" id="rate" min="0.5" max="2" step="0.1" value="1">
+    <div id="audioStatus">Audio: Ready</div>
+  </div>
+  <div id="chat">
+    <div id="messages"></div>
+    <div id="inputArea">
+      <input type="text" id="userInput" placeholder="Ask about a festival… (e.g., Diwali)" />
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
+  <div id="imageUpload">
+    <label for="imgInput">Upload Festival Image 🪔:</label>
+    <input type="file" id="imgInput" accept="image/*" />
+    <canvas id="imageCanvas"></canvas>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
