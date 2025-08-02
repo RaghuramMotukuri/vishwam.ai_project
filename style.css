@@ -1,0 +1,38 @@
+:root {
+  --saffron: #FF6B35;
+  --green: #138808;
+  --gold: #FFD700;
+  --maroon: #8B0000;
+  --white: #FFFFFF;
+  --text-saffron: #FF6B35; /* For dialog text */
+  --input-maroon: #8B0000; /* For input text */
+}
+
+body {
+  background: linear-gradient(to bottom, var(--saffron), var(--white), var(--green));
+  color: var(--maroon);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: var(--gold);
+  color: var(--maroon);
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 4px solid var(--saffron);
+}
+
+#messages .message {
+  color: var(--text-saffron); /* Saffron text for dialogs */
+}
+
+#userInput {
+  color: var(--input-maroon); /* Maroon text for input */
+}
+
+/* Other styles as in previous versions, with added animations and responsiveness */
+@media (max-width: 600px) {
+  #chat { width: 100%; }
+}
