@@ -1,0 +1,105 @@
+{
+  "Diwali": { /* Existing data */ },
+  "Holi": { /* Existing data */ },
+  "Navratri": { /* Existing data */ },
+  "Dussehra": { /* Existing data */ },
+  "Ganesh Chaturthi": { /* Existing data */ },
+  "Karva Chauth": {
+    "name": "Karva Chauth",
+    "alternativeNames": ["Karwa Chauth"],
+    "description": "Fasting ritual by married women for husbands' longevity, with moon worship and storytelling.",
+    "significance": "Strengthens marital bonds and family ties.",
+    "dateRange": "October"
+  },
+  "Onam": {
+    "name": "Onam",
+    "alternativeNames": ["Thiruonam"],
+    "description": "Harvest festival with flower carpets, boat races, and feasts in Kerala.",
+    "significance": "Welcomes King Mahabali, celebrates prosperity.",
+    "dateRange": "August–September"
+  },
+  "Raksha Bandhan": {
+    "name": "Raksha Bandhan",
+    "alternativeNames": ["Rakhi"],
+    "description": "Sisters tie a sacred thread on brothers' wrists, exchanging gifts and vows of protection.",
+    "significance": "Celebrates the bond between brothers and sisters.",
+    "dateRange": "August"
+  },
+  "Eid-ul-Fitr": {
+    "name": "Eid-ul-Fitr",
+    "alternativeNames": ["Festival of Breaking the Fast", "Meethi Eid"],
+    "description": "Religious festival marking the end of Ramadan fasting, celebrated with prayers, charity, and feasts.",
+    "significance": "Promotes forgiveness, gratitude, and community.",
+    "dateRange": "Varies (Islamic calendar, after Ramadan)"
+  },
+  "Pongal": {
+    "name": "Pongal",
+    "alternativeNames": ["Thai Pongal"],
+    "description": "Harvest festival celebrated in Tamil Nadu with the cooking of a special dish called 'Pongal'.",
+    "significance": "Thanksgiving to the Sun God and nature for a good harvest.",
+    "dateRange": "January"
+  },
+  "Makar Sankranti": {
+    "name": "Makar Sankranti",
+    "alternativeNames": ["Maghi", "Uttarayan", "Poush Sankranti"],
+    "description": "Harvest festival marked with kite flying, fairs, and sweets made of sesame and jaggery.",
+    "significance": "Marks the transition of the sun into Capricorn; celebrates new beginnings and the harvest season.",
+    "dateRange": "January"
+  },
+  "Christmas": {
+    "name": "Christmas",
+    "alternativeNames": [],
+    "description": "Christian festival celebrating the birth of Jesus Christ, marked by prayers, carol singing, and exchanging gifts.",
+    "significance": "Promotes joy, generosity, and togetherness.",
+    "dateRange": "December 25"
+  },
+  "Baisakhi": {
+    "name": "Baisakhi",
+    "alternativeNames": ["Vaisakhi"],
+    "description": "Punjabi harvest festival marking the New Year; also significant in Sikhism.",
+    "significance": "Harvest festival and the formation of the Khalsa in Sikh tradition.",
+    "dateRange": "April"
+  },
+  "Janmashtami": {
+    "name": "Janmashtami",
+    "alternativeNames": ["Krishna Janmashtami", "Gokulashtami"],
+    "description": "Celebrates the birth of Lord Krishna with fasting, singing, and re-enactments of Krishna's life.",
+    "significance": "Marks the appearance of Lord Krishna, symbol of divine love and joy.",
+    "dateRange": "August–September"
+  },
+  "Lohri": {
+    "name": "Lohri",
+    "alternativeNames": [],
+    "description": "Punjabi festival celebrating the end of winter. People gather around bonfires, sing, and dance.",
+    "significance": "Welcomes longer days and marks the harvest of sugarcane.",
+    "dateRange": "January 13"
+  },
+  "Mahashivratri": {
+    "name": "Mahashivratri",
+    "alternativeNames": [],
+    "description": "Hindu festival in reverence of Lord Shiva, observed by fasting and night-long vigils.",
+    "significance": "Symbolizes overcoming darkness and ignorance.",
+    "dateRange": "February–March"
+  },
+  "Guru Nanak Jayanti": {
+    "name": "Guru Nanak Jayanti",
+    "alternativeNames": ["Gurpurab"],
+    "description": "Birth anniversary of Guru Nanak, celebrated with prayers, processions, and community service.",
+    "significance": "Commemorates Guru Nanak's teachings of peace and equality.",
+    "dateRange": "November"
+  },
+  "Bihu": {
+    "name": "Bihu",
+    "alternativeNames": ["Rongali Bihu", "Bohag Bihu"],
+    "description": "Assamese New Year and harvest festival with music, dance, and traditional feasts.",
+    "significance": "Celebrates the cycle of agriculture and onset of spring.",
+    "dateRange": "April"
+  },
+  "Chhath Puja": {
+    "name": "Chhath Puja",
+    "alternativeNames": [],
+    "description": "Festival dedicated to the Sun God, marked by fasting, riverbank rituals, and offerings at sunrise and sunset.",
+    "significance": "Thanks the Sun for sustaining life; promotes ecology and gratitude.",
+    "dateRange": "October–November"
+  }
+}
